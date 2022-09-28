@@ -1,0 +1,360 @@
+/* Start Global Rules */
+:root
+{
+    --main-color : #ff9822 ;
+
+}
+body 
+{
+    font-family: 'Cairo', sans-serif;
+}
+#p1
+{
+    left: 0;
+}
+/* End Global Rules */
+header
+{
+    background: url(../images/slider/bg-17.jpg) #ff9822 ;
+    width: 100% ;
+    height: 100vh ;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    position: relative;
+}
+header nav
+{
+    left: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 99;
+    position: fixed;
+    width: 10%;
+    height: 100vh;
+    background-color: rgba(255, 152, 34, 0.267);
+}
+header .navbar-nav .nav-link 
+{
+    color: #FFF;
+}
+header .navbar-nav img 
+{
+    width: 60px;
+}
+@media screen and (max-width:767px) {
+    header .navbar-nav img 
+{
+    width: 27px !important;
+}
+}
+header .page 
+{
+    background-color: rgb(255, 255, 255);
+    width: 90% ;
+    height: 100vh;
+    margin-left: 10%;
+    position: absolute;
+    top: 0;
+    padding: 40px 0;
+    z-index: 99999;
+    border-bottom: 5px solid #ffb03b;
+    overflow: hidden scroll;
+    left: 200%;
+    transition:all 0.8s ease ;
+    -webkit-transition:all 0.8s ease ;
+    -moz-transition:all 0.8s ease ;
+    -ms-transition:all 0.8s ease ;
+    -o-transition:all 0.8s ease ;
+    transition-delay: 0.7s;
+}
+header #headerContent
+{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .discription p 
+{
+    color: #FFF;
+    line-height: 1.7;
+}
+header .discription p:nth-child(1){
+    color: #ff9822;
+    font-size: 30px;
+}
+header #headerContent .btn 
+{
+    border: 2px solid #ffb03b;
+    color: #FFF;
+    letter-spacing: 2px;
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 0;
+    transition: all 0.8s linear;
+    -webkit-transition: all 0.8s linear;
+    -moz-transition: all 0.8s linear;
+    -ms-transition: all 0.8s linear;
+    -o-transition: all 0.8s linear;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+header #headerContent .btn:hover
+{
+  
+    background-color: #FFF;
+    color: #ffb03b;
+
+}
+@media screen and (min-width:991px) {
+    header .discription
+    {
+       width: 60%;
+    }    
+}
+header .page-2 
+{
+    background-image: url(../images/slider/our-vision-bg.jpg);
+    height: 100vh;
+}
+header .surahsContainer p
+{
+        text-align: center;
+        border-bottom: 2px solid #ff9822;
+}
+
+header  .sura 
+{
+    min-width: 150px;
+    min-height: 100px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 60%);
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 5px auto;
+}
+header  .sura:hover 
+{
+    background-color: #ffb03b;
+    color:  #FFF;
+}
+header .pageHiddin 
+{
+    background-color: rgba(0, 0, 0, 0.903);
+    width: 90% ;
+    height: 100vh;
+    margin-left: 10%;
+    color: #FFF;
+    position: absolute;
+    top: 0;
+    padding: 40px 0;
+    z-index: 9999999999999999;
+    border-bottom: 5px solid #ffb03b;
+    overflow: hidden scroll;
+    left: 200%;
+    transition:all 0.8s ease ;
+    -webkit-transition:all 0.8s ease ;
+    -moz-transition:all 0.8s ease ;
+    -ms-transition:all 0.8s ease ;
+    -o-transition:all 0.8s ease ;
+    transition-delay: 0.7s;
+}
+header .page h3 
+{
+    text-align: center;
+}
+header .page .line 
+{
+    width: 150px;
+    height: 3px;
+    background-color: #ff9822;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+header .page .line::before
+{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    top: 6px;
+    left: 24px;
+    background-color: #ffb03b;
+    margin-bottom: 23px;
+}
+header #hadith
+{
+    border: 3px solid #ff9822;
+    min-height: 350px;
+    position: relative;
+    box-shadow: 4px 4px 4px 0 #d1d9e6 inset, -4px -4px 4px 0 #d1d9e6 inset;
+    color: #232323;
+    text-align: center;
+    padding: 50px 20px;
+    overflow: hidden;
+}
+header #hadith div
+{
+    border: 3px solid darkturquoise;
+    background: linear-gradient(45deg, #03a9f4, transparent);
+    padding: 10px;
+    box-shadow: 3px 4px 2px palevioletred;
+    margin-bottom: 17px;
+}
+header .card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    min-height: 320px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 40%);
+    padding: 30px 20px;
+    margin: 20px auto;
+    font-weight: 800;
+    position: relative;
+} 
+header .card:nth-child(2):before ,
+header .card:nth-child(4):before ,
+header .card:nth-child(7):before ,
+header .card:nth-child(9):before ,
+header .card:nth-child(10):before
+{
+    position: absolute;
+    content: "";
+    background: rgba(210, 124, 25, 0.267);
+    width: 100%;
+    height: 100%;
+     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); 
+     clip-path: polygon(215% 107%, 100% 0%, -3% 100%, 21% 100%);
+}
+header .card:nth-child(1):before ,
+header .card:nth-child(3):before ,
+header .card:nth-child(5):before ,
+header .card:nth-child(6):before ,
+header .card:nth-child(8):before
+{
+    position: absolute;
+    content: "";
+    background: rgba(210, 124, 25, 0.267);
+    width: 100%;
+    height: 100%;
+     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    -webkit-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    -moz-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    -ms-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    -o-border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ; 
+} 
+/* Start lectures */
+.lectures-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+.lectures-container  .lec-item{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+    padding: 20px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.lectures-container  .lec-item:hover{
+    transform: scale(.95);
+}
+.lectures-container  .lec-item .lec-text{
+    width: calc(100% - 150px);
+}
+.lectures-container  .lec-item .lec-text h4{
+    
+    font-size: 19px;
+    color:#2bb4aa
+}
+.lectures-container  .lec-item .lec-text p{
+    font-size: 16px;
+    color: #908c8c
+}
+.lectures-container  .lec-item .lec-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: auto;
+}
+.lectures-container  iframe{
+
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+.lectures-container  p{
+    text-align: center;
+    font-size: 16px;
+    color: #181414
+}
+#listImageContainer 
+{
+    position: fixed;
+  z-index: 9999999999;
+    left: 0;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+header .itemImage img
+{
+    transition: all 0.8s linear;
+    -webkit-transition: all 0.8s linear;
+    -moz-transition: all 0.8s linear;
+    -ms-transition: all 0.8s linear;
+    -o-transition: all 0.8s linear;
+}
+header .itemImage img:hover
+{
+    opacity: 0.45;
+    cursor: pointer;
+}
+
+.footer
+{
+    background-color: #232323 !important;
+    padding: 100px 0 !important;
+}
+.socialIcons a i {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    background: rgb(70, 66, 59);
+    padding: 11px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.socialIcons a i:hover
+{
+    background-color: #ffb03b;
+}
+.footer .title span , .footerend span
+{
+    color: #ffb03b;
+}
